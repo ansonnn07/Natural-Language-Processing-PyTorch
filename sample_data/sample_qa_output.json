@@ -1,0 +1,232 @@
+[
+  {
+    "id": 536,
+    "annotations": [
+      {
+        "id": 560,
+        "completed_by": {
+          "id": 1,
+          "email": "roxastan@hotmail.com",
+          "first_name": "",
+          "last_name": ""
+        },
+        "result": [
+          {
+            "value": {
+              "start": 279,
+              "end": 306,
+              "text": "American Record Corporation",
+              "labels": ["Answer"]
+            },
+            "id": "Ed8WurYHzo",
+            "from_name": "answer",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2021-09-06T09:51:47.561357Z",
+        "updated_at": "2021-09-06T09:51:47.561357Z",
+        "lead_time": 119.642,
+        "prediction": {},
+        "result_count": 0,
+        "task": 536
+      }
+    ],
+    "predictions": [],
+    "file_upload": "sample_qa_X126cr2.json",
+    "data": {
+      "text": "Sony Music Entertainment Inc. (sometimes known as Sony Music or by the initials, SME) is an American music corporation managed and operated by Sony Corporation of America (SCA), a subsidiary of Japanese conglomerate Sony Corporation. In 1929, the enterprise was first founded as American Record Corporation (ARC) and, in 1938, was renamed Columbia Recording Corporation, following ARC's acquisition by CBS. In 1966, the company was reorganized to become CBS Records. In 1987, Sony Corporation of Japan bought the company, and in 1991, renamed it SME. It is the world's second largest recorded music company, after Universal Music Group.",
+      "question": "What was the first name of Sony Music Entertainment, Inc?"
+    },
+    "meta": {},
+    "created_at": "2021-09-06T09:49:44.273713Z",
+    "updated_at": "2021-09-06T09:49:44.273713Z",
+    "project": 17
+  },
+  {
+    "id": 537,
+    "annotations": [
+      {
+        "id": 561,
+        "completed_by": {
+          "id": 1,
+          "email": "roxastan@hotmail.com",
+          "first_name": "",
+          "last_name": ""
+        },
+        "result": [
+          {
+            "value": {
+              "start": 321,
+              "end": 325,
+              "text": "1938",
+              "labels": ["Answer"]
+            },
+            "id": "pzOPJphRzx",
+            "from_name": "answer",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2021-09-06T09:51:57.565157Z",
+        "updated_at": "2021-09-06T09:51:57.565157Z",
+        "lead_time": 9.828,
+        "prediction": {},
+        "result_count": 0,
+        "task": 537
+      }
+    ],
+    "predictions": [],
+    "file_upload": "sample_qa_X126cr2.json",
+    "data": {
+      "text": "Sony Music Entertainment Inc. (sometimes known as Sony Music or by the initials, SME) is an American music corporation managed and operated by Sony Corporation of America (SCA), a subsidiary of Japanese conglomerate Sony Corporation. In 1929, the enterprise was first founded as American Record Corporation (ARC) and, in 1938, was renamed Columbia Recording Corporation, following ARC's acquisition by CBS. In 1966, the company was reorganized to become CBS Records. In 1987, Sony Corporation of Japan bought the company, and in 1991, renamed it SME. It is the world's second largest recorded music company, after Universal Music Group.",
+      "question": "In what year was it renamed Columbia Recording Corporation?"
+    },
+    "meta": {},
+    "created_at": "2021-09-06T09:49:44.273713Z",
+    "updated_at": "2021-09-06T09:49:44.273713Z",
+    "project": 17
+  },
+  {
+    "id": 538,
+    "annotations": [
+      {
+        "id": 562,
+        "completed_by": {
+          "id": 1,
+          "email": "roxastan@hotmail.com",
+          "first_name": "",
+          "last_name": ""
+        },
+        "result": [
+          {
+            "value": {
+              "start": 410,
+              "end": 414,
+              "text": "1966",
+              "labels": ["Answer"]
+            },
+            "id": "_1qZCXFBgz",
+            "from_name": "answer",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2021-09-06T09:52:05.704030Z",
+        "updated_at": "2021-09-06T09:52:05.704030Z",
+        "lead_time": 7.957,
+        "prediction": {},
+        "result_count": 0,
+        "task": 538
+      }
+    ],
+    "predictions": [],
+    "file_upload": "sample_qa_X126cr2.json",
+    "data": {
+      "text": "Sony Music Entertainment Inc. (sometimes known as Sony Music or by the initials, SME) is an American music corporation managed and operated by Sony Corporation of America (SCA), a subsidiary of Japanese conglomerate Sony Corporation. In 1929, the enterprise was first founded as American Record Corporation (ARC) and, in 1938, was renamed Columbia Recording Corporation, following ARC's acquisition by CBS. In 1966, the company was reorganized to become CBS Records. In 1987, Sony Corporation of Japan bought the company, and in 1991, renamed it SME. It is the world's second largest recorded music company, after Universal Music Group.",
+      "question": "In what year was it known as CBS Records?"
+    },
+    "meta": {},
+    "created_at": "2021-09-06T09:49:44.273713Z",
+    "updated_at": "2021-09-06T09:49:44.273713Z",
+    "project": 17
+  },
+  {
+    "id": 539,
+    "annotations": [
+      {
+        "id": 563,
+        "completed_by": {
+          "id": 1,
+          "email": "roxastan@hotmail.com",
+          "first_name": "",
+          "last_name": ""
+        },
+        "result": [
+          {
+            "value": {
+              "start": 470,
+              "end": 474,
+              "text": "1987",
+              "labels": ["Answer"]
+            },
+            "id": "Y5qyWgJPrL",
+            "from_name": "answer",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2021-09-06T09:52:13.259756Z",
+        "updated_at": "2021-09-06T09:52:13.259756Z",
+        "lead_time": 7.377,
+        "prediction": {},
+        "result_count": 0,
+        "task": 539
+      }
+    ],
+    "predictions": [],
+    "file_upload": "sample_qa_X126cr2.json",
+    "data": {
+      "text": "Sony Music Entertainment Inc. (sometimes known as Sony Music or by the initials, SME) is an American music corporation managed and operated by Sony Corporation of America (SCA), a subsidiary of Japanese conglomerate Sony Corporation. In 1929, the enterprise was first founded as American Record Corporation (ARC) and, in 1938, was renamed Columbia Recording Corporation, following ARC's acquisition by CBS. In 1966, the company was reorganized to become CBS Records. In 1987, Sony Corporation of Japan bought the company, and in 1991, renamed it SME. It is the world's second largest recorded music company, after Universal Music Group.",
+      "question": "In what year did it land the name, Sony Music Entertainment?"
+    },
+    "meta": {},
+    "created_at": "2021-09-06T09:49:44.273713Z",
+    "updated_at": "2021-09-06T09:49:44.273713Z",
+    "project": 17
+  },
+  {
+    "id": 540,
+    "annotations": [
+      {
+        "id": 564,
+        "completed_by": {
+          "id": 1,
+          "email": "roxastan@hotmail.com",
+          "first_name": "",
+          "last_name": ""
+        },
+        "result": [
+          {
+            "value": {
+              "start": 614,
+              "end": 635,
+              "text": "Universal Music Group",
+              "labels": ["Answer"]
+            },
+            "id": "QB8lZFo0Aq",
+            "from_name": "answer",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2021-09-06T09:52:34.783700Z",
+        "updated_at": "2021-09-06T09:52:34.783700Z",
+        "lead_time": 21.344,
+        "prediction": {},
+        "result_count": 0,
+        "task": 540
+      }
+    ],
+    "predictions": [],
+    "file_upload": "sample_qa_X126cr2.json",
+    "data": {
+      "text": "Sony Music Entertainment Inc. (sometimes known as Sony Music or by the initials, SME) is an American music corporation managed and operated by Sony Corporation of America (SCA), a subsidiary of Japanese conglomerate Sony Corporation. In 1929, the enterprise was first founded as American Record Corporation (ARC) and, in 1938, was renamed Columbia Recording Corporation, following ARC's acquisition by CBS. In 1966, the company was reorganized to become CBS Records. In 1987, Sony Corporation of Japan bought the company, and in 1991, renamed it SME. It is the world's second largest recorded music company, after Universal Music Group.",
+      "question": "What company is the only group larger than Sony Music Entertainment?"
+    },
+    "meta": {},
+    "created_at": "2021-09-06T09:49:44.273713Z",
+    "updated_at": "2021-09-06T09:49:44.273713Z",
+    "project": 17
+  }
+]
