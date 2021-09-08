@@ -8,3 +8,4 @@ data
 *.h5
 
 lightning_logs
+kaggle.json

@@ -1,18 +1,27 @@
 # Natural Language Processing in PyTorch (ft. PyTorch Lightning)
 
 ## Built with
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/numpy/numpy/7e7f4adab814b223f7f917369a72757cd28b10cb/branding/icons/numpylogo.svg"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/pandas-dev/pandas/761bceb77d44aa63b71dda43ca46e8fd4b9d7422/web/pandas/static/img/pandas.svg"></code>
+<img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png">
+<img height="50" src="https://raw.githubusercontent.com/numpy/numpy/7e7f4adab814b223f7f917369a72757cd28b10cb/branding/icons/numpylogo.svg">
+<img height="50" src="https://raw.githubusercontent.com/pandas-dev/pandas/761bceb77d44aa63b71dda43ca46e8fd4b9d7422/web/pandas/static/img/pandas.svg">
+<br>
+<img height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png">
+<img height="50" src="https://miro.medium.com/max/691/0*xXUYOs5MWWenxoNz">
+<img height="50" src="https://github.com/PyTorchLightning/pytorch-lightning/blob/master/docs/source/_static/images/logo.png?raw=true">
+<img height="50" src="https://image4.owler.com/logo/hugging-face_owler_20191218_073707_original.png">
 
-<code><img height="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png"></code>
-<code><img height="40" src="https://miro.medium.com/max/691/0*xXUYOs5MWWenxoNz"></code>
-<code><img height="40" src="https://image4.owler.com/logo/hugging-face_owler_20191218_073707_original.png"></code>
 
+## Notebooks
+- This repo was developed to show how to label text data and train deep learning models for sentiment analysis and question answering tasks.
+- A **DistilBert** transformer models were trained with the `HuggingFace` `transformers` library for the two tasks mentioned.
 
-## Summary
-- This project was developed to test the capability of machine learning models in text classification (an NLP task), specifically sentiment analysis in this case.
-- A **DistilBert** transformer model was built using `PyTorch` with the `HuggingFace` `transformers` library.
+**1. Labeling Text.ipynb**:<br>
+Showing how to label text data using Label Studio, for text classification and question answering tasks.
+
+**2. Training - Sentiment Analysis.ipynb**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ecwNoxd2jMAJyzrcMpvIjJkgOgPpONrr?usp=sharing) <br>
+
+**3. Training - Question Answering.ipynb**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wKX1GUjEhjuc0V0UnnR7z1g5ePITD3lk?usp=sharing) <br>
+
 
 ## PyTorch Installation
 To install PyTorch with GPU support, refer to the official page from PyTorch [here](https://pytorch.org/get-started/locally/). Or just run the code below in your virtual environment.
