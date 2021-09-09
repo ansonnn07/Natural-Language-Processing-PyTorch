@@ -1,6 +1,7 @@
 # Natural Language Processing in PyTorch (ft. PyTorch Lightning)
 
 ## Built with
+<code>
 <img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png">
 <img height="50" src="https://raw.githubusercontent.com/numpy/numpy/7e7f4adab814b223f7f917369a72757cd28b10cb/branding/icons/numpylogo.svg">
 <img height="50" src="https://raw.githubusercontent.com/pandas-dev/pandas/761bceb77d44aa63b71dda43ca46e8fd4b9d7422/web/pandas/static/img/pandas.svg">
@@ -9,7 +10,7 @@
 <img height="50" src="https://miro.medium.com/max/691/0*xXUYOs5MWWenxoNz">
 <img height="50" src="https://github.com/PyTorchLightning/pytorch-lightning/blob/master/docs/source/_static/images/logo.png?raw=true">
 <img height="50" src="https://image4.owler.com/logo/hugging-face_owler_20191218_073707_original.png">
-
+</code>
 
 ## Notebooks
 - This repo was developed to show how to label text data and train deep learning models for sentiment analysis and question answering tasks.
