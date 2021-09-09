@@ -27,6 +27,7 @@ Showing how to use the Huggingface `transformers` library to easily obtain pretr
 **3. Training - Question Answering.ipynb**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wKX1GUjEhjuc0V0UnnR7z1g5ePITD3lk?usp=sharing) <br>
 This notebook fine-tuned another DistilBert model specifically for question answering task. The dataset used in the notebook is the The Stanford Question Answering Dataset 2.0 ([SQuAD2.0](https://rajpurkar.github.io/SQuAD-explorer/)) dataset.
 
+NOTE: Please refer both the training notebooks in Google Colab for the latest updates there.
 
 ## PyTorch Installation
 To install PyTorch with GPU support, refer to the official page from PyTorch [here](https://pytorch.org/get-started/locally/). Or just run the code below in your virtual environment.
