@@ -7,21 +7,25 @@
 <img height="50" src="https://raw.githubusercontent.com/pandas-dev/pandas/761bceb77d44aa63b71dda43ca46e8fd4b9d7422/web/pandas/static/img/pandas.svg">
 <br>
 <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png">
-<img height="50" src="https://miro.medium.com/max/691/0*xXUYOs5MWWenxoNz">
-<img height="50" src="https://github.com/PyTorchLightning/pytorch-lightning/blob/master/docs/source/_static/images/logo.png?raw=true">
-<img height="50" src="https://image4.owler.com/logo/hugging-face_owler_20191218_073707_original.png">
+<a href="https://pytorch.org/"><img height="50" src="https://miro.medium.com/max/691/0*xXUYOs5MWWenxoNz"></a>
+<a href="https://github.com/PyTorchLightning/pytorch-lightning"><img height="50" src="https://github.com/PyTorchLightning/pytorch-lightning/blob/master/docs/source/_static/images/logo.png?raw=true"></a>
+<a href="https://github.com/huggingface/transformers"><img height="50" src="https://image4.owler.com/logo/hugging-face_owler_20191218_073707_original.png"></a>
 </code>
 
-## Notebooks
+## Summary
 - This repo was developed to show how to label text data and train deep learning models for sentiment analysis and question answering tasks.
-- A **DistilBert** transformer models were trained with the `HuggingFace` `transformers` library for the two tasks mentioned.
+- **DistilBert** transformer models were trained with the `HuggingFace` `transformers` library for the two tasks mentioned.
 
-**1. Labeling Text.ipynb**:<br>
+## Notebooks
+
+**1. Labeling Text.ipynb**: [Open in GitHub](https://github.com/ansonnn07/Natural-Language-Processing-PyTorch/blob/master/1.%20Labeling%20Text.ipynb) <br>
 Showing how to label text data using Label Studio, for text classification and question answering tasks.
 
-**2. Training - Sentiment Analysis.ipynb**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ecwNoxd2jMAJyzrcMpvIjJkgOgPpONrr?usp=sharing) <br>
+**2. Training - Sentiment Analysis (Huggingface & PyTorch Lightning).ipynb**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ecwNoxd2jMAJyzrcMpvIjJkgOgPpONrr?usp=sharing) <br>
+Showing how to use the Huggingface `transformers` library to easily obtain pretrained models, and use them for training, fine-tuning, and inference. Used [Huggingface Trainer API](https://huggingface.co/transformers/main_classes/trainer.html) to easily fine-tune models. Also used [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) for more flexibility if needed. This notebook trains on the [Coronavirus Tweets Dataset](https://www.kaggle.com/datatattle/covid-19-nlp-text-classification) obtained from Kaggle.
 
 **3. Training - Question Answering.ipynb**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wKX1GUjEhjuc0V0UnnR7z1g5ePITD3lk?usp=sharing) <br>
+This notebook fine-tuned another DistilBert model specifically for question answering task. The dataset used in the notebook is the The Stanford Question Answering Dataset 2.0 ([SQuAD2.0](https://rajpurkar.github.io/SQuAD-explorer/)) dataset.
 
 
 ## PyTorch Installation
@@ -57,7 +61,3 @@ Just run the following command to install the rest of the dependencies:
 ```
 pip install -r requirements.txt
 ```
-
-## Acknowledgement
-- Link to the Kaggle dataset: https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
-- Huge thanks to the amazing library built by [huggingface](https://github.com/huggingface/transformers)
